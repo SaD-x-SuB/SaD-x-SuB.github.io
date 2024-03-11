@@ -74,8 +74,8 @@ align-items:center;
 
 /*about*/
 .aboutArt{
-font-size:11px;
-height:50vh;
+font-size:13px;
+height:60vh;
 width: 100%;
 margin: 0px;
 padding: 0px;
@@ -86,6 +86,7 @@ align-items:center;
 justify-content: center;
 flex-direction:column;
 text-shadow: 0px 0px 0px #ffddc4;
+
 }
 
 .aboutArt:hover{
@@ -93,6 +94,9 @@ width: 100%;
 background-color:#3030309d;
 color: #ebebeb;
 font-size:10px;
+.list{
+font-size: 10px;
+}
 }
 
 .about{
@@ -100,7 +104,9 @@ height:90%;
 width: 90%;
 margin: 0px 5px 0px 5px;
 background-size:cover;
-transition: 0.3s,easy-out,0.3s;
+
+background-position: center;
+transition: 0.5s;
 }
 
 .aboutArt.one{
@@ -112,14 +118,18 @@ left:0%;
 
 .about:hover{
 height:90%;
-width: 95%;
+width: 90%;
 margin: 0px;
 background-size:cover;
-transition: 0.5s,easy-out,0.5s;
+font-size:15px;
+.list{
+font-size: 15px;
+}
 }
 
 .list{
-font-size: 12px;
+transition: 0.5s;
+font-size: 13px;
 }
 .aboutArt.stat{
 font-size: 12px;
